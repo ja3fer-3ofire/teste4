@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yakine technologie</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #543131;
+    background-image: url(inbox\ mystery.jpg);
+    
+    position: relative;
+    
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background: #121816;
+    color: #fff;
+    padding: 20px 0;
+}
+
+
+header .logo {
+  margin: 0;
+  padding: 0;
+  box-shadow: #ff0000 4px 5px 7px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.logo {
+    width: 100%;
+    height: 100%;
+    animation: logo 1s infinite;
+}
+@keyframes logo {
+    0%{
+        box-shadow: #398801 1px 3px 5px  6px;
+        
+    }
+    100%{
+    box-shadow: #ff0000 1px 3px  7px 4px;
+    }
+   
+}
+
+header nav {
+    float: right;
+    margin-top: 3px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+    
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  
+}
+
+
+/* Main Content */
+.hero {
+    background: url() no-repeat center center/cover;
+    color: #e1ca00;
+    text-align: center;
+    padding: 100px 0;
+    direction: rtl;
+    text-shadow:  blue 3px 3px 3px;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.cta-button {
+    background: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background: #cc5200;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.service {
+    text-align: center;
+}
+
+.service img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+/* Contact Form */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #cc5200;
+}
+
+/* Footer */
+footer {
+    background: #00000061;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    border: #564545 solid 1px;
+}
+.animi{
+    width: 100%;
+    height: 100%;
+    animation: pulse 3s infinite;
+}
+@keyframes pulse{
+    0%{
+        color: #cc5200;
+    }
+    25%{
+    color: #ff0000;
+    }
+    50%{
+        color: #0a6e50;
+    }
+    70%{
+        color: #e1ca00;
+    }
+    100%{
+        color: blue;
+    }
+}
+.butt{
+    animation: but 1s infinite;
+}
+@keyframes but{
+    0%{
+      background-color: red;
+    }
+  
+    50%{
+       background-color: green;
+    }
+   
+    100%{
+       background-color: blue;
+    }
+
+}
+.pa{
+    animation: pa 2s backwards;
+}
+@keyframes pa{
+
+0%{
+     font-size: small;
+    }
+  
+    50%{
+       font-size: medium;
+    }
+   
+    100%{
+       font-size: xx-large;
+    }
+}
+.a{
+    direction: rtl;
+}
+.b:hover{
+    background-color: #cc5200;
+    padding: 10px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="logo.png" alt="Company Logo" width="30px" height="30px" style="border:50% ;" class="logo">
+            <nav>
+                <ul class="a">
+                    <li class="b"><a href="#home">الرئيسية</a></li>
+                    <li class="b"><a href="#services">الخدمة</a></li>
+                    <li class="b"><a href="#about">الاستعمال</a></li>
+                    <li class="b"><a href="#contact">اتصل بنا</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>مرحبا بكم في مفاجأة الصندوق الغامض</h1>
+        </section>
+        <section class="catogore">
+            <div>
+            <p class="pa" style="direction: rtl; color: #ffffff; margin-right: 13px; font-size:xx-large;"
+            >اربع فئات كل فئة تحتوي على عدد محدد بشكل عشوائي <br> باختلاف في الأثمنة كل فئة:</p>
+
+            </div>
+                <title>اختيار عشوائي</title>
+                <style>
+                    .box {
+                        width: 100px;
+                        height: 100px;
+                        display: inline-block;
+                       padding: 20px;
+                        margin: 100px;
+                        line-height: 100px;
+                        text-align: center;
+                        color: white;
+                        font-weight: bold;
+                        direction: rtl;
+                        justify-content: center;
+                        
+                        
+                    }
+                    .box1 { background-color: red; }
+                    .box2 { background-color: blue; }
+                    .box3 { background-color: green; }
+                    .box4 { background-color: rgb(255, 140, 0); }
+                </style>
+            </head>
+            <body>
+                <div id="boxes">
+                    <div class="box box1" style="width: fit-content;">صندوق  1 <details > يحتوي هذا صندوق على ثلاثة عناصر من فئة100dh</details></div>
+                    <div class="box box2" style="width: fit-content;">صندوق 2 <details > يحتوي هذا صندوق على ثلاثة عناصر من فئة150 dh</details></div>
+                    <div class="box box3" style="width: fit-content;">صندوق 3 <details > يحتوي هذا صندوق على ثلاثة عناصر من فئة200 dh</details></div>
+                    <div class="box box4" style="width: fit-content;" >صندوق 4 <details > يحتوي هذا صندوق على ثلاثة عناصر من فئة250dh</details></div>
+                </div>
+                <br>
+                <button class="butt" style="background-color: brown; color: #ccc;margin-left: 50%;" onclick="chooseRandomBox()">اضغط هنا اختيار عشوائي </button>
+            
+                <script>
+                    function chooseRandomBox() {
+                        // الحصول على جميع العناصر التي تحمل الصنف 'box'
+                        const boxes = document.querySelectorAll('.box');
+                        // توليد رقم عشوائي بين 0 و (عدد الصناديق - 1)
+                        const randomIndex = Math.floor(Math.random() * boxes.length);
+                        // إزالة التنسيق "المميز" من جميع الصناديق
+                        boxes.forEach(box => box.style.border = 'none');
+                        // إضافة تنسيق مميز للصندوق الذي تم اختياره عشوائيًا
+                        boxes[randomIndex].style.border = '10px solid #ccc';
+                    }
+                </script>
+            </body>
+            </html>
+            
+        </section>
+    </main>
+    <footer>
+       
+
+              <div id="contact" class="section">
+                <h2 style="color: #ff0000; text-shadow: #000000 2px 3px;">تواصل مع الفريق :</h2>
+                <h4 class="watt">للمزيد من المعلومات اضغط على ايقونة الواتساب  او اليوتيوب:</h4>
+                <a href="https://wa.me/0689190012" style="text-decoration: none;color: #398801;">
+                    <i class="fa-brands fa-whatsapp">whatsapp</i></a><br>
+                    <br>
+                    <a href="https://www.youtube.com/watch?v=QyIyj_MttMQ&t=504s" style="text-decoration: none;color: #ff0000;"><i class="fa-brands fa-youtube"></i>Youtube</a><br>
+                    <br>
+                    <span>الاتصال المباشر: 0781267405</span>
+            </div>
+        
+    </footer>
+    </form>
+    <form id="contactForm">
+        <label for="name">الاسم الكريم:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="rue">العنوان</label>
+        <input type="text" id="rue" name="rue" required><br><br>
+        <label for="tel">رقم الهاتف لتواصل</label>
+        <input type="password" id="password" name="password" required ><br><br>
+
+        <button type="submit">ارسال الطلب</button>
+    </form>
+
+    <div id="response"></div>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // منع الإرسال الافتراضي للنموذج
+
+            // جمع بيانات النموذج
+            const formData = new FormData(this);
+            const data = {};
+            formData.forEach((value, key) => {
+                data[key] = value;
+            });
+
+            // إرسال البيانات إلى الخادم باستخدام fetch
+            fetch('/submit', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data) // تحويل البيانات إلى JSON
+            })
+            .then(response => response.json()) // معالجة الرد كـ JSON
+            .then(data => {
+                // عرض الرد في عنصر HTML
+                document.getElementById('response').innerHTML = `
+                    <h2>ثم ارسال الطلب بنجاح:</h2>
+                `;
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                document.getElementById('response').innerHTML = `<p>Error: ${error.message}</p>`;
+            });
+        });
+    </script>
+
+        <br>
+    <footer>
+
+        <div class="container">
+            <span>&copy; 2024 Professional Website. All rights reserved.</span>
+        </div>
+    </footer>
+
+    
+    
+</body>
+</html>
